@@ -7,9 +7,66 @@
     <title>SiteResponsivo</title>
     <meta name="description" content="Uma breve descrição da página que aparecerá em sites de buscas">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/logo.jpg">
+    <link rel="icon" href="img/logo.png">
 </head>
 <body>
-    <p>Teste de fonte</p>
+    <header id="inicio"> 
+        <div class="container flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="Logo do site">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#quemSomos">Quem Somos</a></li>
+                    <li><a href="#argamassa">Argamassa</a></li>
+                    <li><a href="#tijolo">Tijolo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Calcule a quantidade de tijolos e argamassa por m2</h1>
+            <h2>Para saber como calcular o m2, basta clicar no botão Calcular.</h2>
+            <a href="https://www.youtube.com/watch?v=KoPjXWDmGM8" target="_blank" class="botao">Calcular</a>
+        </div>
+    </main>
+    <section id="argamassa">
+        <div class="container flex2">
+            <h1>Calcule a quantidade de argamassa</h1>
+            <input type="number" placeholder="Altura">
+            <input type="number" placeholder="Largura">
+            <button>Calcular</button>
+        </div>
+    </section>
+    <section id="tijolo">
+        <div class="container flex2">
+            <h1>Calcule a quantidade de tijolos</h1>
+            <input type="number" placeholder="Altura">
+            <input type="number" placeholder="Largura">
+            <button>Calcular</button>
+        </div>
+    </section>
+    <section id="quemSomos">
+        <div class="container flex2">
+            <h1>Treinamento de responsividade</h1>
+            <h2>    Olá, meu nome é Jefferson e esse site não está muito preocupado com a sua apresentação, foi feito com a intenção de treinar a responsividade e praticar um pouco o uso do javaScript.</h2>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="#inicio" id="topo"><img src="img/up.png" alt="todo do site"></a>
+        <div class="container flex3">
+            <ul class="redesSociais">
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt=""></a></li>
+                <li><a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png" alt=""></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+            </ul>
+            <p class="copyright"> &copy;CalculadoraObra - 2022</p>
+        </div>
+        
+    </footer>
 </body>
 </html>

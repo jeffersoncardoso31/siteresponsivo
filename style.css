@@ -12,4 +12,191 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    width: 80vw;
+    margin: 0 auto;
+    background-image: url(img/tijolo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Layout */
+#topo{
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+}
+#topo img{
+  width: 100px;
+}
+header{
+  height: 60px;
+}
+#logo img{
+  width: 128px;
+}
+nav ul{
+ 
+}
+.container{
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex2{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  height: 40vh;
+}
+.botao{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+  background-color: red;
+  padding: 10px 40px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+main h1 {
+  font-size: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: black 0.05em 0.05em 0.05em;
+}
+main h2{
+  font-size: 1.5em;
+  margin: 20px 0px 50px 0px;
+  text-shadow: black 0.05em 0.05em 0.05em;
+}
+/* Smartphone Portrait */
+main{
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+}
+
+
+/* Smartphone Landscape */
+@media (min-width: 576px){
+
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px){
+
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px){
+
+}
+
+/* PC */
+@media (min-width: 1200px){
+  .container{
+    max-width: 1140px;
+  }
+  header{
+    height: 120px;
+    }
+    #logo img{
+      width: 180px;
+      margin-top: 4px;
+    }
+    nav ul{
+      position: static;
+      height: auto;
+      background-color: transparent;
+      margin-top: 50px;
+    }
+    nav ul li{
+      float: left;
+      list-style: none;
+      margin-left: 40px;
+      font-size: 1.3em;
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: black; 
+    }
+    nav ul li a:hover{
+      border-bottom: 1px solid #a9a9a9 ;
+    }
+    #argamassa{
+      background-color: white;
+      padding: 30px;
+      border-style: solid;
+      border-width: 0px 0px 2px 0px;
+    }
+    #tijolo{
+      border-style: solid;
+      padding: 30px;
+      background-color: white;
+      border-style: solid;
+      border-width: 0px 0px 2px 0px;
+    }
+    .container input{
+      margin-top: 20px;
+      text-align: center;
+      width: 200px;
+      height: 30px;
+      border-radius: 30px;
+      font-size: 1.2em;
+      border-width: 3px;
+      border-style: solid;
+    }
+    .container button{
+      margin-top: 20px;
+      text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: red;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    }
+    #quemSomos{
+      background-color: white;
+      border-style: solid;
+  
+    }
+    #quemSomos h1{
+      font-size: 2em;
+    }
+    .flex3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: 30vh;
+    }
+    .redesSociais li{
+      float: left;
+      list-style: none;
+      margin-left: 40px;
+    }
+    .redesSociais img{
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    .copyright{
+      margin-top: 40px;
+    }
+    footer{
+      background-color: white;
+      border-width: 2px 0 0 0;
+      border-style: solid;
+    }
 }
