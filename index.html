@@ -38,17 +38,21 @@
     <section id="argamassa">
         <div class="container flex2">
             <h1>Calcule a quantidade de argamassa</h1>
-            <input type="number" placeholder="Altura">
-            <input type="number" placeholder="Largura">
-            <button>Calcular</button>
+            <input type="number" id="alturaArgamassa" name="alturaArgamassa" placeholder="Altura">
+            <input type="number" id="larguraArgamassa" name="larguraArgamassa" placeholder="Largura">
+            <button onclick="calcularArgamassa()">Calcular</button>
+            <div id="resultadoArgamassa">
+
+            </div>
         </div>
     </section>
     <section id="tijolo">
         <div class="container flex2">
             <h1>Calcule a quantidade de tijolos</h1>
-            <input type="number" placeholder="Altura">
-            <input type="number" placeholder="Largura">
-            <button>Calcular</button>
+            <input type="number" id="alturaTijolo" name="alturaTijolo" placeholder="Altura">
+            <input type="number" id="larguraTijolo" name="larguraTijolo" placeholder="Largura">
+            <button onclick="calcularTijolo()">Calcular</button>
+            <div id="resultadoTijolo"></div>
         </div>
     </section>
     <section id="quemSomos">
@@ -74,5 +78,6 @@
         </div>
         
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
